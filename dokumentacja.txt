@@ -1,0 +1,13 @@
+$ Lekcja 5.1 minuta 18:00
+# nazwa rozrzeszenia plik.handlebars zmeniona na plik.hbs (index.js / app.js)
+#main 
+
+To do list:
+// # ustanowienie połączenia z baza danych / połączenie MongoDB z Mongoose
+// app.js lub modules/user.js
+// mongoose.connect('mongoose://127.0.0.1:27017/express-blog') w app.js ale musi być połączenie z bazą mongoDB
+------------------------------
+Consola:
+$ npm init -y
+$ npm install express mongoose express-handlebars
+$ npm install --save-dev nodemon
