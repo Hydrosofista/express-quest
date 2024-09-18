@@ -1,0 +1,19 @@
+Pre-Alfa 0.0.0.1
+
+
+Pre-Alfa 0.0.0.2
+users:
+  - Poprawne połączenie modułu z bazą danych
+  - Dodanie Catch Error
+
+home:
+  - poprawne wyświetlanie się strony home
+
+Stworzenie pliku Version.txt
+
+model/UserModel.js poprawa z:
+  module.exports = mongoose.model("User", UserSchema); 
+  na:
+  module.exports = mongoose.model("UserModel", UserSchema); 
+
+users.js usunięty, bo powinień znajdować się jako kolekcja w bazie danych na serwerze.

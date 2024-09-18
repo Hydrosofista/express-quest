@@ -1,11 +1,23 @@
+# https://github.com/Hydrosofista/express-quest
 $ Lekcja 5.1 minuta 18:00
 # nazwa rozrzeszenia plik.handlebars zmeniona na plik.hbs (index.js / app.js)
 #main 
 
-To do list:
-// # ustanowienie połączenia z baza danych / połączenie MongoDB z Mongoose
-// app.js lub modules/user.js
-// mongoose.connect('mongoose://127.0.0.1:27017/express-blog') w app.js ale musi być połączenie z bazą mongoDB
+To-do list:
+
+// rozwiązanie konfliktu:
+Handlebars: Access has been denied to resolve the property "name" because it is not an "own property" of its parent.
+You can add a runtime option to disable the check or this warning:
+See https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access for details
+Handlebars: Access has been denied to resolve the property "address" because it is not an "own property" of its parent.
+You can add a runtime option to disable the check or this warning:
+See https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access for details
+Handlebars: Access has been denied to resolve the property "website" because it is not an "own property" of its parent.
+You can add a runtime option to disable the check or this warning:
+See https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access for details
+
+// zrobienie ładnej tabelki z listą użytkowników /users
+
 ------------------------------
 Consola:
 $ npm init -y

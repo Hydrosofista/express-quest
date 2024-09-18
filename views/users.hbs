@@ -1,0 +1,17 @@
+<h1>Users List</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Website</th>
+  </tr>
+  {{#each users}} 
+  <tr>
+    <td>{{this.name}}</td>
+    <td>
+      {{this.address.street}}, {{this.address.suite}}, {{this.address.city}}, {{this.address.zipcode}}
+    </td>
+    <td>{{this.website}}</td>
+  </tr> 
+  {{/each}}
+</table>
