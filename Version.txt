@@ -1,4 +1,5 @@
-Pre-Alfa 0.0.0.1
+Wersja 1.0
+rozwiązanie konfliktu między node.js a handlebars przy pomocy .lean w app.js
 
 
 Pre-Alfa 0.0.0.2
@@ -17,3 +18,7 @@ model/UserModel.js poprawa z:
   module.exports = mongoose.model("UserModel", UserSchema); 
 
 users.js usunięty, bo powinień znajdować się jako kolekcja w bazie danych na serwerze.
+
+
+Pre-Alfa 0.0.0.1
+Pierwsza wersja

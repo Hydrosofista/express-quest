@@ -24,7 +24,7 @@ app.get("/", function (req, res) {
 // tabela urzytkowników
 app.get("/users", async function (req, res) {
   try {
-    const users = await Users.find({});
+    const users = await Users.find({}).lean();
     console.log(users);
     res.render("users", { users });
   } catch (err) {
